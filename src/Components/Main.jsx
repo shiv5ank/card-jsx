@@ -1,0 +1,95 @@
+function Main() {
+  return (
+    <div
+      className="main"
+      style={{
+        marginLeft: "35%",
+        marginTop: "10%",
+        width: "280px",
+        textAlign: "center",
+        padding: "20px",
+        boxShadow: "0 0 10px black",
+      }}
+    >
+      <div className="profile">
+        <img
+          style={{ width: "200px", height: "180px", borderRadius: "50%" }}
+          src="https://media.istockphoto.com/id/1309328823/photo/headshot-portrait-of-smiling-male-employee-in-office.jpg?b=1&s=612x612&w=0&k=20&c=eU56mZTN4ZXYDJ2SR2DFcQahxEnIl3CiqpP3SOQVbbI="
+          alt="/"
+        />
+        <h3 style={{ color: "grey" }}>Alexandra Caulea</h3>
+        <p style={{ color: "grey" }}>
+          I enjoy drinking a cup of coffee every day
+        </p>
+      </div>
+
+      <div>
+        <div
+          className="details"
+          style={{ display: "flex", paddingLeft: "13px" }}
+        >
+          <p
+            style={{
+              paddingLeft: "13px",
+              marginBottom: "0px",
+              color: "purple",
+              fontSize: "20px",
+            }}
+          >
+            172
+          </p>
+          <p style={{ paddingLeft: "60px", color: "purple", fontSize: "20px" }}>
+            47
+          </p>
+          <p style={{ paddingLeft: "90px", color: "purple", fontSize: "20px" }}>
+            20
+          </p>
+        </div>
+        <div style={{ display: "flex", paddingLeft: "15px", marginTop: "0px" }}>
+          <p style={{ paddingLeft: "0px", marginTop: "0px", color: "grey" }}>
+            POSTS
+          </p>
+          <p style={{ paddingLeft: "15Px", marginTop: "0px", color: "grey" }}>
+            FOLLOWERS
+          </p>
+          <p style={{ paddingLeft: "15px", marginTop: "0px", color: "grey" }}>
+            FOLLOWING
+          </p>
+        </div>
+      </div>
+
+      <button
+        style={{
+          marginLeft: "0px",
+          marginTop: "20px",
+          backgroundColor: "purple",
+          color: "white",
+          padding: "8px",
+          borderRadius: "5px",
+          border: "none",
+          cursor: "pointer",
+          fontSize: "15px",
+        }}
+      >
+        FOLLOW
+      </button>
+      <button
+        style={{
+          marginLeft: "20px",
+          marginTop: "20px",
+          backgroundColor: "#ff006e",
+          color: "white",
+          padding: "8px",
+          borderRadius: "5px",
+          border: "none",
+          cursor: "pointer",
+          fontSize: "15px",
+        }}
+      >
+        MESSAGE
+      </button>
+    </div>
+  );
+}
+
+export default Main;
